@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Loader2 } from "lucide-react";
-import Campaign from "../../../artifacts/contracts/CampaignFactory.sol/Campaign.json";
+import Campaign from "@/artifacts/contracts/CampaignFactory.sol/Campaign.json";
 
 interface CampaignDetails {
   owner: string;

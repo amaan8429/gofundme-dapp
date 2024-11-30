@@ -16,7 +16,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Loader2 } from "lucide-react";
-import CampaignFactory from "../../artifacts/contracts/CampaignFactory.sol/CampaignFactory.json";
+import CampaignFactory from "@/artifacts/contracts/CampaignFactory.sol/CampaignFactory.json";
 
 const NEXT_PUBLIC_ADDRESS = "0xfCB489834BB5cd0ac71e3312B37aAa8dF63eDddB";
 

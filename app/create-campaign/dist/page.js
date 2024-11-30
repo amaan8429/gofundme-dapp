@@ -58,7 +58,7 @@ var textarea_1 = require("@/components/ui/textarea");
 var label_1 = require("@/components/ui/label");
 var select_1 = require("@/components/ui/select");
 var lucide_react_1 = require("lucide-react");
-var CampaignFactory_json_1 = require("../../artifacts/contracts/CampaignFactory.sol/CampaignFactory.json");
+var CampaignFactory_json_1 = require("@/artifacts/contracts/CampaignFactory.sol/CampaignFactory.json");
 var NEXT_PUBLIC_ADDRESS = "0xfCB489834BB5cd0ac71e3312B37aAa8dF63eDddB";
 function CreateCampaignPage() {
     var _this = this;
