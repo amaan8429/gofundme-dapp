@@ -11,7 +11,7 @@ NEXT_PUBLIC_RPC_KEY = "b9ad2a56efb34724b06e012c57d2c571";
 
 const config = {
   solidity: "0.8.27",
-  defaultNetwork: "lineaSepolia",
+  defaultNetwork: "amoy",
   networks: {
     amoy: {
       url: `https://polygon-amoy.infura.io/v3/${NEXT_PUBLIC_RPC_KEY}`,
@@ -37,14 +37,3 @@ const config = {
 };
 
 module.exports = config;
-
-// Currency symbol
-// EDU
-// Network URL
-
-// Chain ID
-// 656476
-// Network name
-// EDU Chain Testnet
-// Block explorer URL
-// https://edu-chain-testnet.blockscout.com

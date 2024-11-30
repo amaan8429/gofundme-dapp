@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { ModeToggle } from "./mode-toggle";
-// import { Wallet } from "./wallet";
+import { Wallet } from "./wallet";
 
 const Header = () => {
   return (
@@ -58,7 +58,7 @@ const HeaderNav = () => {
 const HeaderRight = () => {
   return (
     <div className="flex items-center space-x-4">
-      {/* <Wallet /> */}
+      <Wallet />
       <ModeToggle />
     </div>
   );
